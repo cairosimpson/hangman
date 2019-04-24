@@ -1,0 +1,25 @@
+/* We want everything to be defined relative to everything else to start. I don't fully understand positions, and you'll definitely have to fuck with them
+   so it might be worth looking them up and understanding the differences.
+*/
+body {
+	position: relative;
+}
+
+/*
+  CSS centering trick from https://css-tricks.com/centering-css-complete-guide/
+*/
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* CSS can use either strings or hexidecimal representations for colors. There are tools to generate your own -- just google "color hex" */
+.rose {
+	background-color: #FFE4E1;
+}
+
+.javascript-added {
+	color: blue;
+}
